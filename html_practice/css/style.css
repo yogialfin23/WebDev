@@ -1,0 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #022b3a;
+    padding-bottom: 30px;
+}
+
+li{
+    list-style: none;
+}
