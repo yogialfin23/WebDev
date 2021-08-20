@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Josefin+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Josefin Sans";
+    color: #777;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #0b132b;
+    padding-bottom: 30px;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    list-style: none;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #5bc0be;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.band-name {
+    color: white;
+    font-family: Courgette;
+    font-size: 4em;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
