@@ -52,7 +52,7 @@ body {
 .singer-name {
     color: white;
     font-family: Anton, sans-serif;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     font-weight: normal;
     margin: 0;
@@ -63,12 +63,16 @@ body {
 }
 
 .content-section {
+    margin: 1em;
+}
+
+.container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
 }
 
-.section-header {    
+.section-header {
     font-family: 'Metal Mania', cursive;
     font-weight: normal;
     color: #333;
@@ -78,11 +82,33 @@ body {
 
 .about-singer-image {
     float: left;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     margin: 15px;
     border-radius: 50%;
 }
 
-/* .container {
-} */
+.main-footer {
+    background-color: #0b132b;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
