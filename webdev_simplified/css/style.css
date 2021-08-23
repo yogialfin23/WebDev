@@ -112,3 +112,37 @@ body {
     width: 30px;
     height: 30px;
 }
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 35% 1em 37%;
+    color: white;
+    background-color: rgba(255, 255, 255, .1);
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: #5bc0be;
+    border-color: #5bc0be;
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    font-size: 2em;
+    border-radius: 4px;
+    padding: 0;
+    height: 50px;
+    width: 75px;
+}
