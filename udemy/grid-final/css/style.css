@@ -16,7 +16,7 @@ body {
 
 .main-nav {
     display: flex;
-    font-size: 1.2em;
+    font-size: 0.7em;
     margin: 0;
 }
 
@@ -26,13 +26,13 @@ body {
     padding: 10px;
 }
 
-.push {
-    margin-left: auto;
-}
-
 .nav a {
     color: #f5f5f6;
     text-decoration: none;
+}
+
+li .push {
+    float: right;
 }
 
 /* .zone:hover {
