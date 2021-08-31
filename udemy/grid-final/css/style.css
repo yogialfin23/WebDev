@@ -1,4 +1,9 @@
-body {
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+html {
     margin: 0 auto;
 }
 
@@ -24,6 +29,7 @@ body {
     display: inline;
     list-style: none;
     padding: 10px;
+    margin: 0;
 }
 
 .nav a {
@@ -31,8 +37,48 @@ body {
     text-decoration: none;
 }
 
-li .push {
-    float: right;
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.cover {
+    width: 30rem;
+}
+
+.grid-wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.box>img {
+    width: 100%;
+}
+
+.box {
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
 }
 
 /* .zone:hover {
