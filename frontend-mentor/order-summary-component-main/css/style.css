@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-color: var(--Pale-blue);
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 63vh;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 20px 25px -8px rgba(86, 62, 105, 0.253);
+    overflow: hidden;
+}
+
+.card-img {
+    height: 31vh;
+    background: url(../images/illustration-hero.svg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 2.5em;
+    border-radius: 20px 20px 0 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 1.6em;
+    font-weight: 900;
+    color: var(--Dark-blue);
+    max-width: 27rem;
+}
+
+.text {
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+    padding-top: 1em;
+    max-width: 18.5rem;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.plan {
+    display: flex;
+    background-color: var(--Very-pale-blue);
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    border-radius: 8px;
+    padding: 1em 0;
+    margin: 1em auto;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-title {
+    font-weight: 700;
+    color: var(--Dark-blue);
+}
+
+.plan-price {
+    color: var(--Desaturated-blue);
+}
+
+.change {
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+.confirmation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn {
+    width: 50vh;
+    margin: 0.5em auto;
+    border-radius: 4px;
+    padding: 0.8em;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-img {
+        margin-bottom: 1.5em;
+    }
+
+    .title {
+        font-size: 1em;
+        padding: 0;
+    }
+
+    .text {
+        font-size: 0.6em;
+        padding: 1em 10px 0 10px;
+    }
+
+    .plan {
+        margin: 0.5em auto;
+        padding: 0.7em 0;
+    }
+
+    .plan-title {
+        font-size: 0.6em;
+    }
+
+    .plan-price {
+        font-size: 0.6em;
+    }
+
+    .change {
+        font-size: 0.5em;
+    }
+
+    .icon-music {
+        width: 10vh;
+        height: 10vh;
+    }
+}

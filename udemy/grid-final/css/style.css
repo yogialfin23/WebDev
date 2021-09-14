@@ -37,11 +37,11 @@ html {
     text-decoration: none;
 }
 
-.sticky {
+/* .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-}
+} */
 
 @media only screen and (max-width: 600px) {
     .main-nav {
@@ -54,7 +54,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 60vh;
 }
 
 .cover {
